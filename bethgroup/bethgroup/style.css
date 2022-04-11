@@ -1,0 +1,50 @@
+@import url("http://fonts.cdnfonts.com/css/helvetica-2");
+
+:root {
+  --white-color: #ffffff;
+  --turquiose-color: #009fc2;
+  --lightblue-color: #dfeff6;
+  --darkblue-color: #009fc3;
+}
+
+html {
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
+main {
+  max-width: 1280px;
+}
+.banner {
+  background-image: url("./images/banner.svg");
+  padding: 152px 120px;
+  background-size: cover;
+}
+.banner h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 73px;
+  color: #009fc2;
+}
+
+@media (max-width: 640px) {
+  .banner {
+    background-image: url("./images/banner.svg");
+    padding: 42px 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40%;
+  }
+  .banner h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 43px;
+    color: #009fc2;
+  }
+}
+.nav-text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #009fc3;
+}
